@@ -153,10 +153,6 @@ export default function Home() {
           {/* LEFT */}
           <div className="space-y-7 order-2 lg:order-1">
             <div>
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-terracotta-500/8 border border-terracotta-500/15 mb-5">
-                <Star className="size-3.5 text-terracotta-400" fill="currentColor" />
-                <span className="text-terracotta-400 text-xs font-bold uppercase tracking-widest">Premium Herbal</span>
-              </div>
 
               <h1 className="font-display text-4xl sm:text-5xl lg:text-[3.25rem] font-black text-sage-800 leading-[1.06] tracking-tight">
                 {t("home.title1")}

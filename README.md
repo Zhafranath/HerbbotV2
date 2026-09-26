@@ -46,8 +46,8 @@ Buat file `.env` di **Root Folder** dan di dalam folder **`server/`**.
 # Groq AI API Key (Dapatkan dari https://console.groq.com/keys)
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Groq Model Name (Pilihan: groq/compound-mini, llama-3.1-8b-instant, qwen/qwen3.6-27b)
-GROQ_MODEL=groq/compound-mini
+# Groq Model Name (Contoh: qwen/qwen3.8-27b, openai/gpt-oss-20b)
+GROQ_MODEL=qwen/qwen3.8-27b
 
 # Express Server Port
 PORT=5175
@@ -60,7 +60,7 @@ VITE_SUPABASE_KEY=your_supabase_anon_key_here
 **`server/.env`**:
 ```env
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-GROQ_MODEL=groq/compound-mini
+GROQ_MODEL=qwen/qwen3.8-27b
 PORT=5175
 ```
 

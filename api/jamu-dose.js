@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     }
 
     const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
-    const modelName = process.env.GROQ_MODEL || "groq/compound-mini";
+    const modelName = process.env.GROQ_MODEL || "qwen/qwen3.8-27b";
 
     const completion = await groq.chat.completions.create({
       model: modelName,

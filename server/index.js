@@ -44,7 +44,7 @@ app.post("/api/jamu-dose", async (req, res) => {
       });
     }
 
-    const modelName = process.env.GROQ_MODEL || "groq/compound-mini";
+    const modelName = process.env.GROQ_MODEL || "qwen/qwen3.8-27b";
 
     const completion = await groq.chat.completions.create({
       model: modelName,
